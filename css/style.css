@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navwrap{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 ;
+
+}
+.navleft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userName{
+    margin-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.navright{
+    display: flex;
+    align-items: center;
+}
+
+.signOutBtn{
+    background-color:cadetblue;
+    border: none;
+    padding:5px 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+.main{
+    max-width: 960px;
+    margin: 30px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content{
+    flex:2;
+}
+
+.sidebar{
+    flex:1;
+}
+
+.profilewrap{
+    background: linear-gradient(cadetblue 100px, white 100px);
+    border: solid lightgray .2rem;
+}
+.profile{
+
+    padding: 50px;
+    padding-bottom: 20px;
+
+}
+
+.userImg{
+    width: 100px;
+    margin-bottom: 0;
+    border: solid  lightgray .2rem;
+    border-radius: 50%;
+}
+
+
+.locationContainer>*{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.mapMarker{
+    height: 1rem;
+    margin-right: 10px;
+}
+
+h4:first-of-type{
+    margin-top: 10px;
+}
+
+.settings{margin-top: 10px;}
+
+.settings>*{
+    display: inline-block;
+}
+.settings>img{
+    height: 1rem;
+}
+
+.cv{
+    margin:20px 0;
+}
+
+.contentheader{
+    background-color: black;
+}
+
+.contentheader, .content{
+    padding: 10px 50px;
+}
+
+.contentheader h3{
+    display: inline-block;
+    color: white;
+}
+
+.content{
+    border: solid lightgray .2rem;
+}
+
+.sidebar{
+    align-self: start;
+    margin: 0 20px;
+}
+
+.alert{
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.requests{
+    margin-bottom: 20px;
+}
+
+.moreconnections{
+    border-top: none;
+}
+
+.request{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userthumbnail{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.confirm, .deny{
+    width: 35px;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:10px 0;
+}
+.user>h2{
+    margin-left: 10px;
+}
