@@ -12,7 +12,7 @@
     <div class="navwrap">
         <div class="navbar">
             <div class="navleft">
-                <h1 class="userName">Profile</h1>
+                <h1 class="pageName">Profile</h1>
                 <nav class="navleft">
                     <a href="#">Home</a>
                     <a href="#">My Profile</a>
@@ -37,7 +37,7 @@
                         </div>
                         <h4 class="description">Developer | Engineer | Problem Solver</h4>
                         <h4 class="description">Master of shadows and the Internet</h4>
-                        <div class="settings">
+                        <div onclick="changeName()" class="settings">
                             <img src="assets/icons/gear.png" alt="Gear Icon">
                             <a href="#">edit profile</a>
                         </div>
@@ -58,7 +58,7 @@
                 <div class="requests">
                     <div class="contentheader">
                         <div class="alert">
-                            <p>2</p>
+                            <p id="request-alert">2</p>
                         </div>
                         <h3>Connections Requests</h3>
                     </div>
@@ -69,8 +69,8 @@
                                 <h2>Todd E</h2>
                             </div>
                             <div class="userbtns">   
-                                <a href="#"><img class="confirm" src="assets/icons/accept-circle.png" alt="Accept Icon"></a>
-                                <a href="#"><img src="assets/icons/close-circle.png" alt="Deny Icon" class="deny"></a>
+                                <a href="#"><img class=" request-btns confirm" src="assets/icons/accept-circle.png" alt="Accept Icon"></a>
+                                <a  href="#"><img  src="assets/icons/close-circle.png" alt="Deny Icon" class="deny  request-btns"></a>
                             </div>     
                         </div>
                         <div class="request">
@@ -79,8 +79,8 @@
                                 <h2>Phil S</h2>
                             </div>
                             <div class="userbtns">   
-                                <a href="#"><img class="confirm" src="assets/icons/accept-circle.png" alt="Accept Icon"></a>
-                                <a href="#"><img src="assets/icons/close-circle.png" alt="Deny Icon" class="deny"></a>
+                                <a href="#"><img class="confirm  request-btns" src="assets/icons/accept-circle.png" alt="Accept Icon"></a>
+                                <a  href="#"><img  src="assets/icons/close-circle.png" alt="Deny Icon" class="deny  request-btns"></a>
                             </div>   
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                 <div class="connections">
                     <div class="contentheader">
                         <div class="alert">
-                            <p>500+</p>
+                            <p id="connections-alert">500</p>
                         </div>
                         <h3>Your Connections</h3>
                     </div>
@@ -117,5 +117,7 @@
             </div>
         </div>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
